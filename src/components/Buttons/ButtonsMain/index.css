@@ -1,0 +1,26 @@
+.buttons-main button {
+    border: none;
+    margin: 0 10px;
+    padding: 10px 25px; 
+    border: none;
+}
+
+.buttons-main {display: flex;}
+
+.buttons-main button:nth-child(1) {
+    background-color: var(--destaque-color); 
+    color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.buttons-main button:nth-child(1):hover {color: rgb(0, 0, 0); background-color: #70eaff;}
+
+.buttons-main button:nth-child(2) {
+    color: white;
+    background: transparent;
+}
+
+.buttons-main button:nth-child(2):hover {color: var(--destaque-color);}
+
+.buttons-main i {margin-left: 15px;}

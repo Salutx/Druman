@@ -1,0 +1,61 @@
+.card {
+    width: 18rem;
+    min-height: 20rem;
+    height: auto;
+    border-radius: 20px;
+    background-color: var(--dark-tree);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-top: 2px solid var(--destaque-color);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.card-viewmore {
+    display: flex;
+    width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.card-icon {
+    color: var(--destaque-color);
+    margin: -50px -40px;
+    font-size: 48px;
+    text-shadow: rgba(37, 64, 77, 0.19) 0px 10px 20px, rgba(37, 64, 77, 0.19) 0px 6px 6px;
+}
+
+.card a {
+    text-decoration: none; 
+    color: white; 
+    display: flex; 
+    align-items: center;
+    font-size: 0.8rem;
+    transition: all .3s;
+}
+
+.card a:hover {color: var(--destaque-color)}
+
+.card a i {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.card-title {
+    color: var(--destaque-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: rgb(202, 202, 202);
+    line-height: 1.8rem;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Moda */

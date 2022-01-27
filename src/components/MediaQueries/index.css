@@ -1,0 +1,33 @@
+@media only screen and (max-width: 992px) {
+    .card-row {justify-content: center;}
+    #graph {flex-direction: column; text-align: center;}
+    .pie-chart {margin-right: 0; margin-bottom: 3rem;}
+    #asks {border-radius: 0;}
+    .asks-icon {display:none !important}
+    .asks-group {padding: 3rem 0;}
+}
+
+@media only screen and (max-width: 768px) {
+    .buttons-main {flex-direction: column;}
+
+    .card {width: 100%;}
+
+    .hero {margin-top: 10rem;}
+
+    .navbar-nav {background-color: var(--dark-theme); border-radius: 15px;}
+
+    .nav-item, .dropdown-menu a {padding: 10px 20px}
+
+    .imagePreview img {width: 100% !important}
+
+    #asks {padding: 20px;}
+
+    #asks hr {width: 100%;}
+
+    .asks-icon {display: none;}
+
+    .navbar {padding: .5rem 0 !important;}
+
+    #installation-guide .row {flex-direction: column;}
+
+}

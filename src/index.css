@@ -1,0 +1,23 @@
+:root {
+    --destaque-color: #00d9ff;
+    --dark-theme: #0C0D0F;
+    --dark-secundary: #070708;
+    --dark-tree: #121316;
+    --neutro-color: rgb(202, 202, 202);
+}
+
+body {background-color: white; font-family: 'Poppins', sans-serif;}
+
+.apresentation-title {margin-bottom: 3rem; font-weight: bold; position: relative; color: white;}
+
+.apresentation-title::after {
+    border-top: 10px solid var(--destaque-color);
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    width: 10px;
+    border-radius: 100%;
+    content: "";
+}
+
+

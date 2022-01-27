@@ -1,0 +1,9 @@
+.btn-header {
+    padding: 10px 25px; 
+    border: none;
+    transition: all 0.5;
+    background-color: var(--destaque-color);
+    font-weight: bold;
+}
+
+.btn-header:hover {color: white;}

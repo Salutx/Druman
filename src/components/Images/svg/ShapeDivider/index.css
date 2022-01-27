@@ -1,0 +1,16 @@
+.curved {
+  position: relative;
+  background: transparent;
+  height: 30vh;
+}
+
+.curved::after {
+  content: '';
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: var(--dark-theme);
+  height: 39%;
+}

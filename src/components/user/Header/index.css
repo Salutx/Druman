@@ -1,0 +1,19 @@
+header {background-color: transparent; position: absolute; top: 0; z-index: 100; width: 100%;}
+
+.navbar-brand {color: var(--destaque-color); font-weight: bold; font-size: 1.5rem;}
+
+.navbar-nav .nav-item a {color: #f7fbff;}
+
+.navbar-nav a:hover {color: var(--destaque-color);}
+
+.dropdown-menu {background-color: var(--dark-theme); border-radius: 10px; padding: 10px;}
+
+.dropdown-item {font-weight: lighter; font-size: 0.8rem; margin: 0 !important; padding: 10px 5px;}
+
+.dropdown-item:hover {background-color: transparent;}
+
+.nav-item {padding: 0 20px}
+
+.navbar-toggler-icon {color: var(--destaque-color); display: flex; align-items: center; justify-content: center;}
+
+.navbar-toggler {padding: 0;}

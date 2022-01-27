@@ -1,0 +1,24 @@
+	.pie-chart {
+		background:
+			radial-gradient(
+				circle closest-side,
+				transparent 0,
+				transparent 80%,
+				transparent 80%,
+				transparent 85%,
+				transparent 0
+			),
+			conic-gradient(
+				from 106deg,
+				#000428 0,
+				#00d9ff 81.7%,
+				var(--dark-theme) 0,
+				var(--dark-theme)100%
+		);
+		position: relative;
+		width: 300px;
+		min-height: 300px;
+		margin: 0;
+        margin-right: 3rem;
+        border-radius: 100%;
+	}
