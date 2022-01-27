@@ -1,5 +1,7 @@
 ##  Build your future, use Druman. ![#9966ff](https://via.placeholder.com/10/0099ff/ffffff?text=+) 
 
+![druman](https://i.imgur.com/DJ74Ha1.png)
+
 Welcome to the project. <br>
 I come through this project to put into **practice** methods **learned** on the Front-End, <br>
 created with **ReactJS** as an application download and documentation page. **(non-dynamic)**.
